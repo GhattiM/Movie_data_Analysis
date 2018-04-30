@@ -5,7 +5,7 @@ from sqlalchemy import create_engine
 from json import dumps
 
 #Create a engine for connecting to SQLite3.
-#Assuming salaries.db is in your app root folder
+#Assuming movies.db is in your app root folder
 
 e = create_engine('sqlite:///movies.db')
 print(e)
